@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+#wrapper{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.shapka{
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+header{
+    width: 89.27%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div{
+    position: relative;
+}
+.name{
+    font-family: serif;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    z-index: 2;
+}
+.line{
+    height: 6px;
+    width: 127px;
+    background-color: rgb(209, 203, 203);
+    position: absolute; 
+    top: 19px; 
+    z-index: 1; 
+}
+nav a{
+    text-decoration: none;
+    font-family: serif;
+    font-style: Regular;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0.5px;
+    margin-right: 19px;
+}
+nav a:hover, nav a.active{
+    color: rgb(245, 128, 128);
+}
+.photo{
+    width: 100%;
+    height: 555px;
+
+    background-image: url(./img/Your\ images\ here.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.aaa{
+    font-family: serif;
+    color: white;
+
+    position: absolute;
+    bottom: 7%;
+    left: 20%;    
+}
+.photo .aaa h1{
+    font-size: 40px;
+}
+.photo .aaa p{
+    font-size: 14px;
+    line-height: 5px;
+}
